@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Fitness App</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <h1>Welcome to the Fitness App!</h1>
+    
+    <form id="trackForm">
+        <label for="distance">Distance (in km):</label>
+        <input type="number" id="distance" name="distance" required>
+        
+        <label for="duration">Duration (in minutes):</label>
+        <input type="number" id="duration" name="duration" required>
+        
+        <label for="calories">Calories Burned:</label>
+        <input type="number" id="calories" name="calories" required>
+        
+        <button type="submit">Track</button>
+    </form>
+
+    <div id="stats"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
